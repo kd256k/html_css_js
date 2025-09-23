@@ -26,7 +26,7 @@ const Lotto = () => {
         tags.push(`<span class="sp${Math.floor(item / 10)}">${item}</span>`);
     }
     tags.push(`<span class="spplus">+</span>`);
-    tags.push(`<span class="sp${Math.floor(bonus / 10)}">${bonus}</span>`)
+    tags.push(`<span class="sp${Math.floor(bonus / 10)}">${bonus}</span>`);
    // console.log(tags)
 
     //3.화면에 보이도록
