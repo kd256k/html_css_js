@@ -1,0 +1,52 @@
+main {
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button,input[type=button], input[type=reset] {
+    padding: 10px 20px;
+    margin: 5px 15px;
+
+    background-color: darkolivegreen;
+    color: white;
+
+    border-radius: 5px;
+    border: 0px;
+
+    font-weight: bold;
+}
+
+button:hover, input[type=button]:hover, input[type=reset]:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+.btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#msg {
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: large;
+    font-weight: bold;
+}
+
+#msg span {
+    color: rgb(12, 2, 2);
+}

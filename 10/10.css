@@ -1,0 +1,29 @@
+#mainimg > img {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+#thumimg {
+    margin-top: 20px;
+}
+
+#thumimg > img {
+    width: 80px;
+    height: 80px;
+
+    margin: 4px;
+    box-sizing: border-box; 
+    /* box-sizing/  hover 되어도 크기 고정됨 */
+    
+    
+}
+
+#thumimg > img:hover {
+    cursor: pointer;
+
+    border: 4px solid black;
+}
