@@ -7,12 +7,12 @@ body {
 /*  justify-content: center; */
   align-items: center;
 
-  background-color: rgb(243, 243, 243);
+  background-color:  rgba(212, 199, 176);
 }
 
 header, main, footer {
   width: 800px;
-  background-color: white;
+  background-color: rgba(247, 247, 255);
 
   margin: 10px;
   padding: 20px;
@@ -22,7 +22,7 @@ header, main, footer {
 }
 
 header {
-  background-color: rgba(24, 68, 10, 0.678);
+  background-color: rgba(63, 66, 56);
   color: aliceblue;
   margin: 25px;
 }
@@ -32,7 +32,8 @@ header > h1 {
 } 
 
 header span {
-  color: rgb(229, 236, 130);
+  color: rgba(255, 155, 84);
+   
 }
 
 ul {
@@ -53,13 +54,17 @@ footer li {
 }
 
 a {
+  color:  rgba(63, 66, 56);
   text-decoration: none;
-}
 
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+ }
 
 footer a {
   display: inline-flex;
-  background-color: rgba(24, 68, 10, 0.678);
+  background-color: rgba(120, 125, 107);
   color: aliceblue;
 
   border-radius: 10px;
@@ -67,16 +72,19 @@ footer a {
 }
 
 footer a:hover {
-  background-color: brown;
+  background-color: rgba(238, 193, 112);
 }
+
 
 main  li {
   border-bottom: 1px solid;
-
+  
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
 }
 
 main li:hover {
-  background-color: aliceblue;
+  background-color: rgba(242, 166, 90);
 }
