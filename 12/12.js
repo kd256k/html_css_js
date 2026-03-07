@@ -53,9 +53,25 @@ document.addEventListener('DOMContentLoaded', () => {
       idx = parseInt(col.getAttribute('id').replace('col', ''));
       //현재 선택된 보드의 위치에 해당하는 배열의 위치 값으로 비교
       if (arrnum[idx] == 0) {
-        col.innerHTML = '📈';
+        col.innerHTML = `
+                      <div style="background:linear-gradient(135deg,#43a047,#1b5e20);
+                                  border-radius:50%;
+                                  width:70px;height:70px;
+                                  display:flex;align-items:center;justify-content:center;
+                                  box-shadow:0 6px 16px rgba(46,125,50,0.4);
+                                  margin:auto">
+                        <i class="fa-solid fa-arrow-trend-up" style="color:white;font-size:1.8rem"></i>
+                      </div>`; 
         if (cnt == 8) {
-         cols[arrnum.indexOf(1)].innerHTML = '📈'; 
+         cols[arrnum.indexOf(1)].innerHTML = `
+                                          <div style="background:linear-gradient(135deg,#43a047,#1b5e20);
+                                                      border-radius:50%;
+                                                      width:70px;height:70px;
+                                                      display:flex;align-items:center;justify-content:center;
+                                                      box-shadow:0 6px 16px rgba(46,125,50,0.4);
+                                                      margin:auto">
+                                            <i class="fa-solid fa-arrow-trend-up" style="color:white;font-size:1.8rem"></i>
+                                          </div>`; 
          check('성공');
         //  msg.innerHTML = "<span>성공</span>";
         //  bt.innerHTML = '다시하기' ;
@@ -63,7 +79,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
       else {
-        col.innerHTML = '📉';
+        col.innerHTML = `
+                      <div style="background:linear-gradient(135deg,#ef5350,#b71c1c);
+                                  border-radius:50%;
+                                  width:70px;height:70px;
+                                  display:flex;align-items:center;justify-content:center;
+                                  box-shadow:0 6px 16px rgba(198,40,40,0.4);
+                                  margin:auto">
+                        <i class="fa-solid fa-arrow-trend-down" style="color:white;font-size:1.8rem"></i>
+                      </div>`;
         msg.innerHTML = "<span>실패</span>";
         bt.innerHTML = '다시하기';
         flag = false;
