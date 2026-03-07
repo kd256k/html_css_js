@@ -53,10 +53,13 @@ footer li {
   margin: 10px;
 }
 
-a {
+main li a {
   display: block;
   width: 100%;
+  
+}
 
+a {
   color:  rgba(63, 66, 56);
   text-decoration: none;
 

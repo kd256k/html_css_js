@@ -15,7 +15,7 @@ header, main, footer{
   display: flex;
   flex-direction: column;
   
-  background-color: aliceblue;
+  background-color: rgba(247, 247, 255);
 }
 
 ul {
@@ -38,7 +38,7 @@ article {
 }
 
 article > p {
-  font-family: "East Sea Dokdo", sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 25px;
 }
@@ -77,12 +77,12 @@ a {
   text-align: center;
 
   color: white;
-  background-color: blue;
+  background-color: rgba(238, 193, 112);
 }
 
 /* 마우스가 놓이면 */
 a:hover {
-  background-color: brown;
+  background-color: rgba(120, 125, 107);
 }
 
 span {
