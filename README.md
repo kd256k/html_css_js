@@ -1,6 +1,6 @@
-# HTML/CSS/JavaScript 학습 프로젝트 | HTML/CSS/JS Practice
+# HTML/CSS/JavaScript 
 
-## 프로젝트 소개 | About
+## About
 
 AI 데이터 분석 풀스택 웹 개발자 양성과정(2025 3기) 
 HTML, CSS, JavaScript 기초 학습 실습 프로젝트입니다.
