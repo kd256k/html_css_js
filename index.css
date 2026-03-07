@@ -54,6 +54,9 @@ footer li {
 }
 
 a {
+  display: block;
+  width: 100%;
+
   color:  rgba(63, 66, 56);
   text-decoration: none;
 
@@ -77,8 +80,6 @@ footer a:hover {
 
 
 main  li {
-  display: block;
-  width: 100%;
   border-bottom: 1px solid;
   padding: 10px;
   margin-top: 3px;
