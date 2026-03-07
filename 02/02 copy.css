@@ -62,6 +62,15 @@ ul {
   list-style: none;
 }
 
+.ulicon a {
+  color: rgba(63, 66, 56);
+  font-size: 30px;
+}
+
+.ulicon a:hover {
+  color: rgba(238, 193, 112);
+}
+
 /* li {
   display: inline;
 } */
