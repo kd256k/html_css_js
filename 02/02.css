@@ -48,12 +48,18 @@ ul {
 }
 
 
-.ulicon {
+.ulicon a {
+  color: rgba(63, 66, 56);
   font-size: 30px;
+}
+
+.ulicon a:hover {
+  color: rgba(238, 193, 112);
 }
 
 /* 마우스가 놓이면 */
 .ultext > a:hover {
+
   background-color: rgba(120, 125, 107);
 }
 
