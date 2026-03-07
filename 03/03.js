@@ -27,6 +27,6 @@ const CheckVar = () => {
       // y = 40;
       // console.log('x =' + x) ;
       console.log(`x = ${typeof (x)}, y = ${typeof(y)}`);
-      console.log(`문자열 ${x}은 문자인가요? ${isNaN(x)? '예' : '아니오'}`);
-      console.log(`문자열 ${y}은 문자인가요? ${isNaN(y)}? '예' : '아니오'}`);
+      console.log(`문자열 ${x}은 문자인가요? ${isNaN(x) ? '예' : '아니오'}`);
+      console.log(`문자열 ${y}은 문자인가요? ${isNaN(y) ? '예' : '아니오'}`);
 }

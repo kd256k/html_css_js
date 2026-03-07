@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         flag = flagV;
 
-        txt1.sytle.display = txt1dis ;
+        txt1.style.display = txt1dis ;
         bt.textContent = btv ;
         img.setAttribute('src', `../img/${imgv}.png`) ;
     }
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             init(false, 'none', '다시 시작하기', 'good') ;
     }
      
-    txt1.fous();
+    txt1.focus();
     })
 
 

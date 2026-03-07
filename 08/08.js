@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const txt2 = document.querySelector('#txt2');
 
     //label
-    const txtlLb = document.querySelector('[for=txt1]');
+    const txt1Lb = document.querySelector('[for=txt1]');
     const txt2Lb = document.querySelector('[for=txt2]');
 
     //console.log(txt1Lb.txtContent)
     //console.log(txt1Lb.txtContent)
 
     //공통함수
-    const updataUI = () => {
+    const updateUI = () => {
         txt1.value = '';
         txt1Lb.textContent = sel1.value;
 
@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
     //select변경시
     sel1.addEventListener('change', () => {
         sel2.value = sel1.value == '℃' ? '℉' : '℃';
-        updataUI
+        updateUI();
     });
 
     sel2.addEventListener('change', () => {
         sel1.value = sel2.value == '℃' ? '℉' : '℃';
-        updataUI();
+        updateUI();
     });
 
     //input txt1의 값이 입력이 되면
