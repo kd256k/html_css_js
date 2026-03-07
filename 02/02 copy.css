@@ -29,6 +29,7 @@ ul {
 }
 
 li > i {
+  background-color: (63, 66, 56);
   font-size: 25px;
 }
 
@@ -38,8 +39,7 @@ article {
 }
 
 article > p {
-  font-family: sans-serif;
-  font-weight: 400;
+    font-weight: 400;
   font-size: 25px;
 }
 
